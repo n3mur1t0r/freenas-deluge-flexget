@@ -37,5 +37,10 @@ LABEL org.freenas.interactive="false"                                           
               \"env\": \"PUID\",                                                                \
               \"descr\": \"UserID\",                                                            \
               \"optional\": true                                                                \
+         },                                                                                     \
+         {                                                                                      \
+              \"env\": \"UMASK_SET\",                                                           \
+              \"descr\": \"UMASK, default 022\",                                                \
+              \"optional\": true                                                                \
          }                                                                                      \
       ]"
